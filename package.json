@@ -1,0 +1,41 @@
+{
+  "name": "@ummaraa/community-map-library",
+  "version": "1.0.0",
+  "description": "Professional React mapping components with cartographic best practices",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "react",
+    "mapping",
+    "gis",
+    "leaflet",
+    "cartography",
+    "components"
+  ],
+  "author": "Ummara Ali",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "0.263.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.23.0",
+    "@babel/preset-react": "7.22.0",
+    "@rollup/plugin-babel": "6.0.4",
+    "@rollup/plugin-commonjs": "25.0.7",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "rollup": "3.29.4",
+    "rollup-plugin-peer-deps-external": "2.2.4"
+  }
+}

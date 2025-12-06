@@ -1,0 +1,9 @@
+cat > .gitignore << 'EOF'
+node_modules/
+dist/
+.DS_Store
+*.log
+npm-debug.log*
+.npm
+package-lock.json
+EOF
