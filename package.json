@@ -1,5 +1,5 @@
 {
-  "name": "@ummaraa/community-map-library",
+  "name": "@map-kit/community-map-library",
   "version": "1.0.0",
   "description": "Professional React mapping components with cartographic best practices",
   "main": "dist/index.js",
@@ -35,6 +35,8 @@
     "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-commonjs": "25.0.7",
     "@rollup/plugin-node-resolve": "15.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "3.29.4",
     "rollup-plugin-peer-deps-external": "2.2.4"
   }
